@@ -1,2 +1,3 @@
-from .auth import register_user
-from .auth import login_user
+from .auth import register_user, login_user
+from .genre_view import GenreView
+from .movie_view import MovieView

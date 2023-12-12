@@ -1,0 +1,87 @@
+[
+    {
+      "model": "vhsapi.genre",
+      "pk": 1,
+      "fields": {
+        "label": "Comedy"
+      }
+    },
+    {
+      "model": "vhsapi.genre",
+      "pk": 2,
+      "fields": {
+        "label": "Drama"
+      }
+    },
+    {
+        "model": "vhsapi.genre",
+        "pk": 3,
+        "fields": {
+          "label": "Horror"
+        }
+      },
+      {
+        "model": "vhsapi.genre",
+        "pk": 4,
+        "fields": {
+          "label": "Crime"
+        }
+      },
+      {
+        "model": "vhsapi.genre",
+        "pk": 5,
+        "fields": {
+          "label": "Action"
+        }
+      },
+      {
+        "model": "vhsapi.genre",
+        "pk": 6,
+        "fields": {
+          "label": "Thriller"
+        }
+      },
+      {
+        "model": "vhsapi.genre",
+        "pk": 7,
+        "fields": {
+          "label": "Suspense"
+        }
+      },
+      {
+        "model": "vhsapi.genre",
+        "pk": 8,
+        "fields": {
+          "label": "Western"
+        }
+      },
+      {
+        "model": "vhsapi.genre",
+        "pk": 9,
+        "fields": {
+          "label": "Science Fiction"
+        }
+      },
+      {
+        "model": "vhsapi.genre",
+        "pk": 10,
+        "fields": {
+          "label": "Fantasy"
+        }
+      },
+      {
+        "model": "vhsapi.genre",
+        "pk": 11,
+        "fields": {
+          "label": "Adventure"
+        }
+      },
+      {
+        "model": "vhsapi.genre",
+        "pk": 12,
+        "fields": {
+          "label": "Animation"
+        }
+      }
+  ]
+  
