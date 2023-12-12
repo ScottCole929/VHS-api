@@ -1,0 +1,32 @@
+[
+    {
+        "model": "vhsapi.rareuser",
+        "pk": 1,
+        "fields": {
+            "street_address": "724 Evergreen Terrace",
+            "city": "Springfield",
+            "state": "Illinois",
+            "zip_code": "34567",
+            "bio": "I love movies more than life itself!",
+            "profile_image_url": "https://thumbs.dreamstime.com/b/happy-young-man-watching-movie-theater-cinema-entertainment-people-concept-men-comedy-52740466.jpg",
+            "created_on": "2023-12-10 18:00",
+            "active": true,
+            "user_id": 1
+        }
+    },
+    {
+        "model": "vhsapi.rareuser",
+        "pk": 2,
+        "fields": {
+            "street_address": "823 Central Park West",
+            "city": "New York",
+            "state": "New York",
+            "zip_code": "23097",
+            "bio": "Movies are like films that are also cinema.",
+            "profile_image_url": "https://media.istockphoto.com/id/696692832/photo/movie-can-be-enjoyed-alone-too.jpg?s=612x612&w=is&k=20&c=batNcwsoCC0OopE0T0sGd29WBRv8oyBIUFlfG_oqJAs=",
+            "created_on": "2023-11-10 14:00",
+            "active": true,
+            "user_id": 2
+        }
+    }
+]

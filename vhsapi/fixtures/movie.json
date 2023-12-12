@@ -1,0 +1,80 @@
+[
+    {
+        "model": "vhsapi.movie",
+        "pk": 1,
+        "fields": {
+            "title": "Pulp Fiction",
+            "release_year": 1994,
+            "starring": "John Travolta, Samuel L. Jackson, Uma Thurman, Bruce Willis",
+            "director": "Quentin Tarantino",
+            "production_studio": "Miramax",
+            "cover_img_url": "https://preview.redd.it/seriously-video-archives-podcast-needs-to-discuss-pulp-v0-s6kfmb296e3b1.jpg?width=580&format=pjpg&auto=webp&s=26b881abece60619962873d8c601111613309b39",
+            "is_available": true
+        }
+    },
+    {
+        "model": "vhsapi.movie",
+        "pk": 2,
+        "fields": {
+            "title": "Titanic",
+            "release_year": 1997,
+            "starring": "Leonardo DiCaprio, Kate Winslet, Billy Zane, Bill Paxton",
+            "director": "James Cameron",
+            "production_studio": "Twentieth Century Fox",
+            "cover_img_url": "https://i.etsystatic.com/6782855/r/il/1ab1a0/609079665/il_fullxfull.609079665_jvl7.jpg",
+            "is_available": true
+        }
+    },
+    {
+        "model": "vhsapi.movie",
+        "pk": 3,
+        "fields": {
+            "title": "Scream",
+            "release_year": 1996,
+            "starring": "Neve Campbell, Courteney Cox, David Arquette, Drew Barrymore",
+            "director": "Wes Craven",
+            "production_studio": "Dimension",
+            "cover_img_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcrckYpnWimaOnY7crRt0AFXPI7XK-4AN0DTrj7XfMX2I6PQcEznj5Jz6xC6jGjQzmyXA6j-Z_2pbdQkst_VRR-N-0sTR0cokPWvb9md-MBN5FhC8R1Mj1zJNNTjhzz0s7KhwfE9VxPfXBLcjqlJIRqST_yBPGjnsAFtuK5_a1VETwuqElOe2IqGD03g/s640/Scream-1-1996-VHS-cover-@retro-daze.org.jpg",
+            "is_available": true
+        }
+    },
+    {
+        "model": "vhsapi.movie",
+        "pk": 4,
+        "fields": {
+            "title": "Waterworld",
+            "release_year": 1995,
+            "starring": "Kevin Costner, Dennis Hopper, Jeanne Tripplehorn, Tina Majorino",
+            "director": "Kevin Reynolds",
+            "production_studio": "Universal",
+            "cover_img_url": "https://i.etsystatic.com/13647129/r/il/f87074/3416984630/il_570xN.3416984630_ozsi.jpg",
+            "is_available": true
+        }
+    },
+    {
+        "model": "vhsapi.movie",
+        "pk": 5,
+        "fields": {
+            "title": "Fargo",
+            "release_year": 1996,
+            "starring": "Frances McDormand, William H. Macy, Steve Buscemi, Peter Stormare",
+            "director": "Joel Coen, Ethan Coen",
+            "production_studio": "PolyGram",
+            "cover_img_url": "https://i.etsystatic.com/5844803/r/il/b04441/3208024686/il_fullxfull.3208024686_e7lx.jpg",
+            "is_available": true
+        }
+    },
+    {
+        "model": "vhsapi.movie",
+        "pk": 6,
+        "fields": {
+            "title": "Jurassic Park",
+            "release_year": 1993,
+            "starring": "Sam Neill, Laura Dern, Jeff Goldblum, Richard Attenborough",
+            "director": "Steven Spielberg",
+            "production_studio": "Universal",
+            "cover_img_url": "https://i.pinimg.com/736x/12/b6/3d/12b63d9e76ebdf649f922f8965f3200d.jpg",
+            "is_available": true
+        }
+    }
+]

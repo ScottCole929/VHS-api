@@ -1,0 +1,74 @@
+[
+    {
+        "model": "vhsapi.moviegenre",
+        "pk": 1,
+        "fields": {
+            "movie": 1,
+            "genre": 4
+        }
+    },
+    {
+        "model": "vhsapi.moviegenre",
+        "pk": 2,
+        "fields": {
+            "movie": 2,
+            "genre": 2
+        }
+    },
+    {
+        "model": "vhsapi.moviegenre",
+        "pk": 3,
+        "fields": {
+            "movie": 2,
+            "genre": 11
+        }
+    },
+    {
+        "model": "vhsapi.moviegenre",
+        "pk": 4,
+        "fields": {
+            "movie": 3,
+            "genre": 3
+        }
+    },
+    {
+        "model": "vhsapi.moviegenre",
+        "pk": 5,
+        "fields": {
+            "movie": 4,
+            "genre": 5
+        }
+    },
+    {
+        "model": "vhsapi.moviegenre",
+        "pk": 6,
+        "fields": {
+            "movie": 4,
+            "genre": 11
+        }
+    },
+    {
+        "model": "vhsapi.moviegenre",
+        "pk": 7,
+        "fields": {
+            "movie": 5,
+            "genre": 4
+        }
+    },
+    {
+        "model": "vhsapi.moviegenre",
+        "pk": 8,
+        "fields": {
+            "movie": 6,
+            "genre": 5
+        }
+    },
+    {
+        "model": "vhsapi.moviegenre",
+        "pk": 9,
+        "fields": {
+            "movie": 6,
+            "genre": 11
+        }
+    }
+]
