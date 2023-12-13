@@ -1,0 +1,24 @@
+[
+    {
+      "model": "vhsapi.subscription",
+      "pk": 1,
+      "fields": {
+        "created_on": "2023-09-08",
+        "ends_on": "2024-09-07",
+        "card_number": 1234567887654321,
+        "is_paid": true,
+        "user": 1
+      }
+    },
+    {
+      "model": "vhsapi.subscription",
+      "pk": 2,
+      "fields": {
+        "created_on": "2023-07-12",
+        "ends_on": "2024-07-11",
+        "card_number": 7829375810264859,
+        "is_paid": true,
+        "user": 2
+      }
+    }
+]

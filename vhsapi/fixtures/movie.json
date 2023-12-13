@@ -76,5 +76,122 @@
             "cover_img_url": "https://i.pinimg.com/736x/12/b6/3d/12b63d9e76ebdf649f922f8965f3200d.jpg",
             "is_available": true
         }
+    },
+    {
+        "model": "vhsapi.movie",
+        "pk": 7,
+        "fields": {
+            "title": "Empire Records",
+            "release_year": 1995,
+            "starring": "Anthony LaPaglia, Liv Tyler, Rory Cochrane, Renee Zellweger",
+            "director": "Allan Moyle",
+            "production_studio": "Warner Bros.",
+            "cover_img_url": "https://i.ebayimg.com/images/g/92kAAOSwu-xlZegO/s-l1200.webp",
+            "is_available": true
+        }
+    },
+    {
+        "model": "vhsapi.movie",
+        "pk": 8,
+        "fields": {
+            "title": "Dazed and Confused",
+            "release_year": 1993,
+            "starring": "Jason London, Milla Jovovich, Joey Lauren Adams, Matthew McConaughey",
+            "director": "Richard Linklater",
+            "production_studio": "Universal",
+            "cover_img_url": "https://i.etsystatic.com/5844803/r/il/6566b7/3800014404/il_fullxfull.3800014404_reja.jpg",
+            "is_available": true
+        }
+    },
+    {
+        "model": "vhsapi.movie",
+        "pk": 9,
+        "fields": {
+            "title": "Clueless",
+            "release_year": 1995,
+            "starring": "Alicia Silverstone, Paul Rudd, Stacey Dash, Brittany Murphy",
+            "director": "Amy Heckerling",
+            "production_studio": "Paramount",
+            "cover_img_url": "https://i.etsystatic.com/5844803/r/il/334d5b/5015803256/il_fullxfull.5015803256_9y46.jpg",
+            "is_available": true
+        }
+    },
+    {
+        "model": "vhsapi.movie",
+        "pk": 10,
+        "fields": {
+            "title": "Malcolm X",
+            "release_year": 1992,
+            "starring": "Denzel Washington, Angela Bassett, Delroy Lindo, Spike Lee",
+            "director": "Spike Lee",
+            "production_studio": "Warner Bros.",
+            "cover_img_url": "https://i.etsystatic.com/5481737/r/il/69b919/4854589547/il_fullxfull.4854589547_eq7t.jpg",
+            "is_available": true
+        }
+    },
+    {
+        "model": "vhsapi.movie",
+        "pk": 11,
+        "fields": {
+            "title": "Se7en",
+            "release_year": 1995,
+            "starring": "Brad Pitt, Morgan Freeman, Gwyneth Paltrow, John C. McGinley",
+            "director": "David Fincher",
+            "production_studio": "New Line Cinema",
+            "cover_img_url": "https://i.etsystatic.com/22041241/r/il/961d2f/2363561324/il_300x300.2363561324_9tjm.jpg",
+            "is_available": true
+        }
+    },
+    {
+        "model": "vhsapi.movie",
+        "pk": 12,
+        "fields": {
+            "title": "Unforgiven",
+            "release_year": 1992,
+            "starring": "Clint Eastwood, Gene Hackman, Morgan Freeman, Richard Harris",
+            "director": "Clint Eastwood",
+            "production_studio": "Warner Bros.",
+            "cover_img_url": "https://i.etsystatic.com/10106866/r/il/4810b9/2924658420/il_fullxfull.2924658420_madb.jpg",
+            "is_available": true
+        }
+    },
+    {
+        "model": "vhsapi.movie",
+        "pk": 13,
+        "fields": {
+            "title": "Event Horizon",
+            "release_year": 1997,
+            "starring": "Laurence Fishburne, Sam Neill, Kathleen Quinlan, Joely Richardson",
+            "director": "Paul W.S. Anderson",
+            "production_studio": "Paramount",
+            "cover_img_url": "https://u-mercari-images.mercdn.net/photos/m56650206989_1.jpg?width=1024&height=1024&format=pjpg&auto=webp&fit=crop&_=1605667329",
+            "is_available": true
+        }
+    },
+    {
+        "model": "vhsapi.movie",
+        "pk": 14,
+        "fields": {
+            "title": "Hook",
+            "release_year": 1991,
+            "starring": "Dustin Hoffman, Robin Williams, Julia Roberts, Bob Hoskins",
+            "director": "Steven Spielberg",
+            "production_studio": "Columbia",
+            "cover_img_url": "https://i.ebayimg.com/images/g/PU8AAOSwxSNfbl8c/s-l1200.webp",
+            "is_available": true
+        }
+    },
+    {
+        "model": "vhsapi.movie",
+        "pk": 15,
+        "fields": {
+            "title": "Rushmore",
+            "release_year": 1998,
+            "starring": "Jason Schwartzman, Olivia Williams, Bill Murray, Brian Cox",
+            "director": "Wes Anderson",
+            "production_studio": "Touchstone",
+            "cover_img_url": "https://i.etsystatic.com/25003448/r/il/223c77/3680736463/il_fullxfull.3680736463_esbo.jpg",
+            "is_available": true
+        }
     }
 ]

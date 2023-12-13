@@ -70,5 +70,109 @@
             "movie": 6,
             "genre": 11
         }
+    },
+    {
+        "model": "vhsapi.moviegenre",
+        "pk": 10,
+        "fields": {
+            "movie": 7,
+            "genre": 1
+        }
+    },
+    {
+        "model": "vhsapi.moviegenre",
+        "pk": 11,
+        "fields": {
+            "movie": 8,
+            "genre": 1
+        }
+    },
+    {
+        "model": "vhsapi.moviegenre",
+        "pk": 12,
+        "fields": {
+            "movie": 9,
+            "genre": 1
+        }
+    },
+    {
+        "model": "vhsapi.moviegenre",
+        "pk": 13,
+        "fields": {
+            "movie": 10,
+            "genre": 2
+        }
+    },
+    {
+        "model": "vhsapi.moviegenre",
+        "pk": 14,
+        "fields": {
+            "movie": 11,
+            "genre": 6
+        }
+    },
+    {
+        "model": "vhsapi.moviegenre",
+        "pk": 15,
+        "fields": {
+            "movie": 11,
+            "genre": 7
+        }
+    },
+    {
+        "model": "vhsapi.moviegenre",
+        "pk": 16,
+        "fields": {
+            "movie": 12,
+            "genre": 8
+        }
+    },
+    {
+        "model": "vhsapi.moviegenre",
+        "pk": 17,
+        "fields": {
+            "movie": 13,
+            "genre": 9
+        }
+    },
+    {
+        "model": "vhsapi.moviegenre",
+        "pk": 18,
+        "fields": {
+            "movie": 13,
+            "genre": 3
+        }
+    },
+    {
+        "model": "vhsapi.moviegenre",
+        "pk": 19,
+        "fields": {
+            "movie": 14,
+            "genre": 10
+        }
+    },
+    {
+        "model": "vhsapi.moviegenre",
+        "pk": 20,
+        "fields": {
+            "movie": 14,
+            "genre": 11
+        }
+    },
+    {
+        "model": "vhsapi.moviegenre",
+        "pk": 21,
+        "fields": {
+            "movie": 15,
+            "genre": 1
+        }
+    },
+    {
+        "model": "vhsapi.moviegenre",
+        "pk": 21,
+        "fields": {
+            "movie": 15,
+            "genre": 2
+        }
     }
 ]
