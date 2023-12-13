@@ -2,7 +2,7 @@ from django.contrib.auth.models import User
 from rest_framework import viewsets, serializers, status
 from rest_framework.response import Response
 from django.core.exceptions import PermissionDenied
-from vhsapi.models import Review, Posts, RareUser
+from vhsapi.models import Review, RareUser
 
 class ReviewSerializer(serializers.ModelSerializer):
     class Meta:
@@ -31,7 +31,7 @@ class ReviewView(viewsets.ViewSet):
         serialized = ReviewSerializer(reviews, many=True)
         return Response(serialized.data, status=status.HTTP_200_OK)
     
-    
+
     def retrieve(self, request, pk=None):
         """Handle GET requests for single type
 

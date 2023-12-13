@@ -1,0 +1,24 @@
+[
+    {
+      "model": "vhsapi.review",
+      "pk": 1,
+      "fields": {
+        "title": "My Thoughts",
+        "comment": "I loved this movie more than life itself!",
+        "date_reviewed": "2023-12-02",
+        "movie": 1,
+        "user": 1
+      }
+    },
+    {
+      "model": "vhsapi.review",
+      "pk": 2,
+      "fields": {
+        "title": "Great Movie",
+        "comment": "The VHS came quickly and was in perfect working order.",
+        "date_reviewed": "2023-12-05",
+        "movie": 2,
+        "user": 2
+      }
+    }
+]
