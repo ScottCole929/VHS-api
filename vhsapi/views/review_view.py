@@ -4,10 +4,22 @@ from rest_framework.response import Response
 from django.core.exceptions import PermissionDenied
 from vhsapi.models import Review, RareUser
 
+class UserSerializer(serializers.ModelSerializer):
+    user_full_name = serializers.SerializerMethodField()
+
+    class Meta:
+        model = User
+        fields = ['username', 'user_full_name']
+    
+    def get_user_full_name(self, user):
+        return user.get_full_name()
+
 class ReviewSerializer(serializers.ModelSerializer):
+    user_info = UserSerializer(source='user.user', read_only=True)
+
     class Meta:
         model = Review
-        fields = ('id', 'title', 'comment', 'user', 'movie')
+        fields = ('id', 'title', 'comment', 'user_info', 'movie', 'date_reviewed')
 
 class ReviewView(viewsets.ViewSet):
 
