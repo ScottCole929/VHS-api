@@ -11,6 +11,8 @@ router.register(r'rental', RentalView, 'rental')
 router.register(r'review', ReviewView, 'review')
 
 urlpatterns = [
+    path('rental/tape-selection', RentalView.as_view({'get': 'tape_selection'}), name='tape-selection'),
+    path('rental/past-tape-rentals', RentalView.as_view({'get': 'past_tape_rentals'}), name='past-tape-rentals'),
     path('register', register_user),
     path('login', login_user),
     path('admin/', admin.site.urls),
