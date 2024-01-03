@@ -3,6 +3,8 @@
       "model": "vhsapi.rental",
       "pk": 1,
       "fields": {
+        "is_selected": true,
+        "is_active": true,
         "date_rented": "2023-11-12",
         "date_returned": null,
         "returned_yet": false,
@@ -14,6 +16,8 @@
         "model": "vhsapi.rental",
         "pk": 2,
         "fields": {
+          "is_selected": true,
+          "is_active": true,
           "date_rented": "2023-11-14",
           "date_returned": null,
           "returned_yet": true,
