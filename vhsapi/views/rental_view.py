@@ -50,8 +50,8 @@ class RentalView(viewsets.ViewSet):
         except Movie.DoesNotExist:
             return Response({"error": "Could not find movie"}, status=status.HTTP_404_NOT_FOUND)
         
-        is_active = request.data.get('is_active', False)
-        is_selected = request.data.get('is_selected', True)
+        is_active = request.data.get('is_active')
+        is_selected = request.data.get('is_selected')
 
         try:
             rare_user = RareUser.objects.get(user=request.user)
@@ -103,7 +103,7 @@ class RentalView(viewsets.ViewSet):
     def past_tape_rentals(self, request):
         rare_user = RareUser.objects.get(user=request.user)
 
-        past_tape_rentals = Rental.objects.filter(user=rare_user, returned_yet=True)
+        past_tape_rentals = Rental.objects.filter(user=rare_user, is_active=True)
         serialized = RentalSerializer(past_tape_rentals, many=True)
         return Response(serialized.data)
     
@@ -127,3 +127,16 @@ class RentalView(viewsets.ViewSet):
     
         except Exception as event:
             return Response({"error": str(event)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+    
+    @action(detail=True, methods=['put'], url_path='rent-tape/(?P<rental_id>\d+)')
+    def rent_tape(self, request, rental_id=None):
+        try:
+            rental = Rental.objects.get(pk=rental_id)
+            rental.is_active = True
+            rental.is_selected = True
+            rental.save()
+
+            serialized = RentalSerializer(rental)
+            return Response(serialized.data, status=status.HTTP_200_OK)
+        except Rental.DoesNotExist:
+            return Response(status=status.HTTP_404_NOT_FOUND)
