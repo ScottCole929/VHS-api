@@ -82,3 +82,8 @@ class ReviewView(viewsets.ViewSet):
         
         except Review.DoesNotExist:
             return Response(status=status.HTTP_404_NOT_FOUND)
+    
+    def new_reviews(self, request):
+        new_reviews = Review.objects.filter(user=request.user)
+        serialized = ReviewSerializer(new_reviews, many=True)
+        return Response(serialized.data, status=status.HTTP_200_OK)
