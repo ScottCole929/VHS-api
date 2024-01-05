@@ -11,6 +11,8 @@ router.register(r'rental', RentalView, 'rental')
 router.register(r'review', ReviewView, 'review')
 
 urlpatterns = [
+    # path('review/movie/<int:pk>/movie-reviews', ReviewView.as_view({'get': 'movie_reviews'}), name='movie-reviews'),
+    path('review/my-reviews', ReviewView.as_view({'get': 'my_reviews'}), name='my-reviews'),
     path('rent-tape/<int:rental_id>', RentalView.as_view({'put': 'rent_tape'}), name='rent-tape'),
     path('rental/tape-selection', RentalView.as_view({'get': 'tape_selection'}), name='tape-selection'),
     path('rental/past-tape-rentals', RentalView.as_view({'get': 'past_tape_rentals'}), name='past-tape-rentals'),
