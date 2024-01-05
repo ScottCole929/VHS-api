@@ -35,7 +35,8 @@ class MovieView(ViewSet):
             response -- JSON serialized list of types
         """
 
-        movies = Movie.objects.all().order_by('title')
+        # movies = Movie.objects.all().order_by('title')
+        movies = Movie.objects.all()
         serialized = MovieSerializer(movies, many=True)
         return Response(serialized.data, status=status.HTTP_200_OK)
     
